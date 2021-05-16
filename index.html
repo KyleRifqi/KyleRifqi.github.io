@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html prefix="og">
 <head>
+	<!-- Meta -->
 	<title>KyleRifqi's Website</title>
-	<meta property="og:title" content="KyleRifqi"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="./images/icon.png"/>
-	<link rel='stylesheet' type='text/css' href='./assets/stylesheet.css'>
+	<meta name="title" content="KyleRifqi's Website"> <!-- Primary Meta Tags -->
+	<meta name="description" content="My website where I link my profiles on websites and some other stuff I guess.">
+	<meta property="og:type" content="website"> <!-- Open Graph / Facebook -->
+	<meta property="og:url" content="kylerifqi.github.io">
+	<meta property="og:title" content="KyleRifqi's Website">
+	<meta property="og:description" content="My website where I link my profiles on websites and some other stuff I guess.">
+	<meta property="og:image" content="./images/preview.png">
+	<meta property="twitter:card" content="summary_large_image"> <!-- Twitter -->
+	<meta property="twitter:url" content="kylerifqi.github.io">
+	<meta property="twitter:title" content="KyleRifqi's Website">
+	<meta property="twitter:description" content="My website where I link my profiles on websites and some other stuff I guess.">
+	<meta property="twitter:image" content="./images/preview.png">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="./assets/stylesheet.css">
+	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
 	<link rel="manifest" href="./images/favicon/site.webmanifest">
-</head>
+	</head>
 <body>
-	<div class='center'>
-		<div class='card'>
-			<div class='center'>
-				<a href='https://github.com/KyleRifqi/' target="_blank">
-					<div class='link'>
-						<img src='./images/github.png'>
-					</div>
-				</a>
-				<a href='https://www.youtube.com/channel/UCAZa5skhLwfK-Dh9mmsZphw' target="_blank">
-					<div class='link'>
-						<img src='./images/youtube.png'>
-					</div>
-				</a>
-			</div>
-		</div>
-		<img src='./images/icon.png' draggable='false' class='icon'>
-	</div>
-	<script type='text/javascript' src='./assets/script.js'></script>
+	<!-- Canvas -->
+	<canvas>
+		<!-- Backup code if canvas isnt supported. -->
+		<div><div>
+			<h1>Sorry, Canvas is not support by your browser. :(</h1>
+			<p>Try using a different Browser, preferabbly a more up-to-date version.</p>
+			<a target="_blank" href="https://caniuse.com/canvas">List of Supported Devices and Browsers</a>
+		</div></div>
+	</canvas>
+	<!-- Script -->
+	<script type="text/javascript" src="./assets/p5.min.js"></script>
+	<script type="text/javascript" src="./assets/customModule.js"></script>
+	<script type="text/javascript" src="./assets/script.js"></script>
 </body>
 </html>
