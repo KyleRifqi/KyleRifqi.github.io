@@ -1,0 +1,3 @@
+[submodule "pathfinderUI"]
+	path = pathfinderUI
+	url = https://github.com/kylerifqi/pathfinderUI
